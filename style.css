@@ -95,3 +95,88 @@
     margin-left: 90px;
     margin-top: 50px;
 }
+
+.section-2 {
+    font-family: "Roboto", serif;
+    height: 750px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.header-2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    height: 40px;
+    flex-basis: 100%;
+    margin: 50px;
+    margin-top: -85px;
+}
+
+
+.imagerow-1 {
+    width: 170px;
+    height: 170px;
+    margin-top: -600px;
+}
+
+.imagerow-2 {
+    width: 170px;
+    height: 170px;
+    margin-top: -600px;
+}   
+
+.imagerow-3 {
+    width: 170px;
+    height: 170px;
+    margin-top: -600px;
+}
+
+.imagerow-4 {
+    width: 170px;
+    height: 170px;
+    margin-top: -600px;
+}
+
+
+.imagerow-1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    transition: transform .5s;
+}
+
+.imagerow-2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    transition: transform .5s;
+}
+
+.imagerow-3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    transition: transform .5s;
+}
+
+.imagerow-4 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    transition: transform .5s;
+}
+
+.imagerow-1 img:hover, .imagerow-2 img:hover, .imagerow-3 img:hover, .imagerow-4 img:hover {
+    transform: scale(1.5);
+} 
