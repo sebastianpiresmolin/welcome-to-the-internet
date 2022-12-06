@@ -1,5 +1,7 @@
 
-
+body {
+    margin: 0;
+}
 
 .section-1 {
     display: flex;
@@ -98,7 +100,7 @@
 
 .section-2 {
     font-family: "Roboto", serif;
-    height: 750px;
+    height: 550px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -177,7 +179,7 @@
 }
 
 .imagerow-1 img:hover, .imagerow-2 img:hover, .imagerow-3 img:hover, .imagerow-4 img:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
 .imagetext-1, .imagetext-2, .imagetext-3, .imagetext-4 {
@@ -189,4 +191,86 @@
     margin-left: 5px;
     text-align: center;
     height: 300px;
+}
+
+.section-3 {
+    font-family: "Roboto", serif;
+    display: flex;
+    height: 550px;
+    background-color: #E5E7EB;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    width: 1000px;
+    margin-bottom: -550px;
+}
+
+.quote-sign {
+    width: 400px;
+    height: 200px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 600px;
+    margin-top: 400px;
+
+}
+
+.section-4 {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+}
+
+.calltoaction {
+    height: 200px;
+    width: 700px;
+    align-items: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.calltoaction h1 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.calltoaction p {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 100px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    width: 700px;
+    height: 200px;
+    background-color: #3882f6;
+
+}
+
+.action-button button {
+    height: 40px;
+    width: 175px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 4px solid #E5E7EB;
+    margin-top: 80px;
+    margin-left: 250px;
 }
